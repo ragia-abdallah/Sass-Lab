@@ -1,0 +1,33 @@
+.navbar-brand {
+    color: $navtextcolor;
+}
+
+.bg-dark {
+    background: $bgcolordark;
+}
+
+.border-dark-subtle {
+    border-color: $bgcolordark;
+}
+
+.card {
+    border: none;
+    background: none;
+}
+
+.link-secondary {
+    text-decoration: none;
+}
+
+.btn-dark {
+    border-radius: 0;
+    border: 2px solid $bgcolordark;
+    background-color: rgba(var(--bs-danger-rgb),var(--bs-bg-opacity))!important;
+    color: $bgcolordark;
+}
+
+.btn-light {
+    border: 1px solid $buttoncolorlight;
+    border-radius: 1rem;
+    background-color: none;
+}
